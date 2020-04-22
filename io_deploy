@@ -1,0 +1,6 @@
+cd ~/github.io 
+cp -R ~/Documents/GING/ediphy/doc/dist/demo ~/github.io/ediphy/
+git checkout master
+git add .
+git commit -m 'Just another deploy'
+git push orgin master
