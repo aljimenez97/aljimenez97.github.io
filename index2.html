@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <meta charset="utf-8">
       <title>Serpientes</title>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+      <link rel='stylesheet' type="text/css" href="./layout_base.css">
+
    </head>
    <body>
    	<script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
    	<h2>Parte 1: Introducción a dash.js</h2>
-   	<div class="code">
+   	<div class="video-container">
          <video class="dashjs-player" autoplay controls preload="auto" muted>
          </video>
       </div>
-      <div class="code">
-         <p>Video Bitrate: <span id="bitrate"></span> kbps</p> 
-         <p>Video Buffer: <span id="buffer"></span> seconds</p> 
+      <div class="metrics">
+         <p>Video Bitrate: <span id="bitrate"></span></p> 
+         <p>Video Buffer: <span id="buffer"></span></p> 
          <p>Video Representation: <span id="representation"></span></p>
       </div>
 
